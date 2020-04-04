@@ -99,6 +99,36 @@ body {
   margin: 0 0 32px;
 }
 
+.about_myself_text {
+  text-align: left;
+  white-space: normal;
+  margin: 0 15px 15px 0;
+  max-width: 450px;
+  min-width: 45%;
+  float: left;
+}
+
+.hobby {
+  text-align: right;
+  margin: 0 5px 15px 0;
+  max-width: 450px;
+  min-width: 45%;
+  float: right;
+}
+
+.about_myself_text p {
+  white-space: pre-line;
+}
+
+.hobby p {
+  white-space: pre-line;
+  margin-bottom: 5px;
+}
+
+.useful {
+  clear: both;
+}
+
 .skills-list {
   margin: 0;
   padding: 0;
@@ -157,7 +187,7 @@ body {
 .project-image img {
   text-align: center;
   max-width: 100%;
-  border: solid 1px rgba(192, 192, 192, 0.609) ;
+  border: solid 1px rgba(192, 192, 192, 0.609);
   border-radius: 5px;
 }
 
@@ -178,7 +208,7 @@ body {
   margin-bottom: 20px;
 }
 
-.button:hover{
+.button:hover {
   color: #04396b;
   background-color: #86c3fa;
   box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.287);
